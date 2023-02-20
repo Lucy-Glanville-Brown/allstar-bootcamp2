@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #354B45;
 }
 
@@ -99,6 +99,7 @@ input[type=checkbox]{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-top: 1rem;
+    z-index: 1;
   }
   
   .menu li:hover {
@@ -148,4 +149,33 @@ input[type=checkbox]{
   top: 220px;
   right: 10px;
   position: absolute;
+}
+
+/* Information Section */
+
+.info {
+  padding: 10px;
+}
+
+.right-home, .left-home {
+  margin: 10px;
+}
+
+.right-home h2, .left-home h2 {
+  padding-bottom: 10px;
+  line-height: 1.2;
+  font-size: 24px;
+}
+
+.right-home p, .left-home p {
+  font-size: 20px;
+}
+
+.center-home {
+  margin: 10px;
+}
+
+.center-home img {
+  height: 400px;
+  width: 280px;
 }
