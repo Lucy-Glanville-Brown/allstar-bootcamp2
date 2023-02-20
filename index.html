@@ -12,10 +12,31 @@
     <title>Allstar Bootcamp</title>
 </head>
 <body>
-    <header>Header content</header>
-    <section>Main Image</section>
-    <section>Information</section>
-    <footer></footer>
-    
+  <!-- code taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ -->
+  <header>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="index.html">
+        <h1 class="logo">Allstar Bootcamp</h1>
+      </a>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Timetable</a></li>
+          <li><a href="/">More Info</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <section>Main Image</section>
+  <section>Information</section>
+  <footer></footer>
+
 </body>
 </html>
