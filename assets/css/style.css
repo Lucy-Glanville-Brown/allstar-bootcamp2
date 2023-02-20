@@ -129,8 +129,23 @@ input[type=checkbox]{
 }
 
 .hero-image {
-  height: 200px;
+  height: 250px;
   width: 100%;
   background: url('../images/hero-image-mobile.jpg') no-repeat center center;
   background-size: 450px;
+}
+
+.hero-text {
+  font-size: 60%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.6;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  color: #454545;
+  background-color: #59fad7;
+  top: 220px;
+  right: 10px;
+  position: absolute;
 }
