@@ -1,3 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: blueviolet;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: #354B45;
+}
+
+
+/* Headings and Logo */
+
+h1, h2 {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #454545;
+}
+
+.logo {
+  
+}
+
+
+/* NAVBAR STYLING STARTS */
+/* Code taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #354B45;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #454545;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+  list-style-type: none;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type=checkbox]{
+  display: none;
+} 
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES TO NAVBAR */
+
+@media (max-width: 768px) {
+
+  .menu { 
+    display:none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+  }
+  
+  .menu li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+    transition: 0.3s ease;
+  }
+  
+  .menu li + li {
+    margin-top: 12px;
+  }
+  
+  input[type=checkbox]:checked ~ .menu{
+    display: block;
+  }
+  
+  .hamburger {
+    display: block;
+  }
 }
