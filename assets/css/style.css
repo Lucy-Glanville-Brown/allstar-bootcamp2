@@ -188,11 +188,11 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  background: #111;
+  background: #454545;
   height: auto;
   width: 100vw;
   padding-top: 20px;
-  color: #fff;
+  color: white;
 }
 
 .footer-content{
@@ -230,10 +230,8 @@ footer{
 }
 .socials a{
   text-decoration: none;
-  color: #fff;
-  border: 1.1px solid white;
+  color: white;
   padding: 5px;
-  border-radius: 50%;
 }
 .socials a i{
   font-size: 1.1rem;
@@ -241,21 +239,22 @@ footer{
   transition: color .4s ease;
 }
 .socials a:hover i{
-  color: aqua;
+  color: #59fad7;
+}
+
+hr {
+  color: white;
+  width: auto;
 }
 
 .footer-bottom{
-  background: #000;
-  width: 100vw;
-  padding: 20px;
-  padding-bottom: 40px;
+  background: #454545;
   text-align: center;
-
+  color: white;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer-bottom p{
@@ -268,14 +267,11 @@ footer{
 .footer-bottom a{
 font-size: 16px;
 text-decoration: none;
-color: #fff;
-border: 1.1px solid white;
+color: white;
 padding: 5px;
-border-radius: 50%;
 }
 
-.footer-bottom span{
-  opacity: .4;
+.footer-bottom p{
   font-weight: 200;
   font-size: 16px;
 }
@@ -294,12 +290,13 @@ display: block;
 }
 
 .footer-menu ul li a{
-color: #cfd2d6;
+color: white;
 text-decoration: none;
 }
 
 .footer-menu ul li a:hover{
-color: #27bcda;
+color: #59fad7;
+font-weight: bold;
 }
 
 @media (max-width:500px) {
