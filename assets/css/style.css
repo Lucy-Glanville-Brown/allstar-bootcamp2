@@ -313,6 +313,63 @@ font-weight: bold;
   }
 }
 
+/* timetable */
+
+.timetable-main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.left-timetable {
+  display: none;  
+}
+
+.right-timetable {
+  display: none;  
+}
+
+.center-timetable {
+  padding-top: 25px;
+  padding-bottom: 25px; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 12px;
+  background-color: #59fad7;
+  padding: 10px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid-container > div {
+  background-color: #fafafa;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  color: #454545;
+  line-height: 1.4;
+}
+
+.grid-container h3 {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
 /* Media Queries for small screen sizes 450px and up */
 
 @media (min-width:450px) {
