@@ -155,6 +155,8 @@ input[type=checkbox]{
 
 .info {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .right-home, .left-home {
@@ -173,11 +175,15 @@ input[type=checkbox]{
 
 .center-home {
   margin: 10px;
+  
 }
 
 .center-home img {
   height: 400px;
   width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer */
@@ -304,5 +310,74 @@ font-weight: bold;
   display: flex;
   margin-top: 10px;
   margin-bottom: 20px;
+  }
+}
+
+/* Media Queries for small screen sizes 450px and up */
+
+@media (min-width:450px) {
+  .hero-image {
+    height: 350px;
+    background-size: 650px;
+  }
+
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  
+}
+
+/* Media Queries for medium screen sizes 650px and up  */
+
+@media (min-width:650px) {
+  .hero-image {
+    height: 300px;
+    background-size: 1200px;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    padding-left: 10px;    
+  }
+
+  .footer-content{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+}
+
+/* Media Queries for large screen sizes 1000px and up */
+
+@media (min-width:1000px) {
+  .hero-image {
+    height: 450px;
+    background-size: 1500px;
+  }
+  
+  .hero-text {
+    font-size: 100%;
+    top: 280px;
+    right: 60px;
+  }
+
+  .info {
+    flex-direction: row;
+  }
+  
+  .right-home h2, .left-home h2 {
+    font-size: 28px;
+  }
+  
+  .right-home p, .left-home p {
+    font-size: 24px;
+  }
+  
+  .center-home img {
+    height: 420px;
+    width: 305px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 }
