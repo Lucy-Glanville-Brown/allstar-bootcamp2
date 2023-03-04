@@ -761,4 +761,30 @@ font-weight: bold;
     font-size: 22px;
   }
 
+  
+  
+  .contact-us {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .signup {
+    width: 90%;
+  }
+
+  .signup-left, .contact-info-left {
+    padding-left: 20px;
+  }
+
+  .signup-right img, #map {
+    margin: auto;
+    width: 470px;
+    display: block;
+  }
+
+  .contact-info p {
+    font-size: 18px;
+  }
+
 }
