@@ -655,6 +655,45 @@ font-weight: bold;
   .workout-right {
     width: 50%;
   }
+
+  .signup-main {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .signup-left {
+    width: 50%;
+  }
+
+  .signup-right {
+    width: 50%;
+    padding-left: 10px;  
+  }
+
+  .signup-right img {
+    height: auto;
+    width: 355px;
+  }
+
+  .contact-info-main {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .contact-info-left {
+    width: 50%;
+  }
+
+  .contact-info-right {
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  #map {
+    width: 355px;
+  }
   
 }
 
