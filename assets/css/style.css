@@ -402,6 +402,22 @@ font-weight: bold;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .left-timetable, .right-timetable {
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .left-timetable img, .right-timetable img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
   
 }
 
@@ -437,4 +453,10 @@ font-weight: bold;
     margin-top: 10px;
     margin-bottom: 15px;
   }
+
+  .left-timetable img, .right-timetable img {
+    height: 220px;
+    margin-top: 60px;
+  }
+
 }
