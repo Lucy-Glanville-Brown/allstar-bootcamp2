@@ -372,19 +372,75 @@ font-weight: bold;
 
 /* More Information */
 
+.more-info-main {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
 .more-info-left img {
-  height: 150px;
+  height: 170px;
   width: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.more-info-right h2 {
+  padding-bottom: 5px;
+
+}
+
+.bootcamp-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.bootcamp-left h2 {
+  padding-bottom: 5px;
+}
+
+.equipment-list {
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.equipment-list li {
+  padding-bottom: 5px;
 }
 
 .bootcamp-right img {
-  height: 150px;
+  height: 190px;
   width: auto;
 }
 
+.workout-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
 .workout-left img {
-  height: 150px;
+  height: 190px;
   width: auto;
+}
+
+.workout-right h2 {
+  padding-bottom: 5px;
+}
+
+.exercise-list {
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.exercise-list li {
+  padding-bottom: 5px;
 }
 
 /* Media Queries for small screen sizes 450px and up */
