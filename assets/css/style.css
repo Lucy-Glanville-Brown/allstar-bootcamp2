@@ -594,4 +594,30 @@ font-weight: bold;
     margin-top: 60px;
   }
 
+  .more-info-main, .bootcamp-main, .workout-main {
+    margin: 30px;
+    max-height: 400px;
+    max-width: 1600px;
+  }
+
+  .more-info-right, .workout-right {
+    padding-right: 20px;
+  }
+
+  .bootcamp-left {
+    padding-left: 20px;
+  }
+  
+  .more-info-right h2, .bootcamp-left h2,
+  .workout-right h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  .more-info-right p, .bootcamp-left p,
+  .equipment-list li, .workout-right p,
+  .exercise-list li {
+    font-size: 22px;
+  }
+
 }
