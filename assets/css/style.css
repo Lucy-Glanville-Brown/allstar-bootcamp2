@@ -370,6 +370,23 @@ font-weight: bold;
   padding-top: 10px;
 }
 
+/* More Information */
+
+.more-info-left img {
+  height: 150px;
+  width: auto;
+}
+
+.bootcamp-right img {
+  height: 150px;
+  width: auto;
+}
+
+.workout-left img {
+  height: 150px;
+  width: auto;
+}
+
 /* Media Queries for small screen sizes 450px and up */
 
 @media (min-width:450px) {
